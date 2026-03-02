@@ -51,7 +51,7 @@ A continuación se listan los tickets detallados para ejecutar esta migración.
 **Tests a Pasar:**
 - No aplica lógica de negocio aún, solo validación de configuración de CI/CD base en GitHub Actions (e.g. `mix format --check-formatted`).
 
-### ~🎟️ Ticket 2: Migrar `pi-ai` a Elixir OTP App (`pi_ai`)~ (✅ Iniciado - App y dependencias creadas)
+### ~🎟️ Ticket 2: Migrar `pi-ai` a Elixir OTP App (`pi_ai`)~ (✅ Completado)
 **Objetivo:** Crear un cliente unificado de LLMs que acepte un esquema estándar de mensajes (system, user, assistant) y use **Req** para llamar a proveedores.
 **Dependencias:** `req`, `jason` (para parseo JSON).
 **Criterios de Aceptación:**
