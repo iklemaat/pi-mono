@@ -62,7 +62,7 @@ A continuación se listan los tickets detallados para ejecutar esta migración.
 - `ExUnit` unitarios para los adaptadores de cada proveedor (verificando la correcta construcción del request JSON).
 - Mockear peticiones HTTP con **Bypass** para simular respuestas de la API de OpenAI (incluyendo streaming chunks) y verificar el correcto ensamblado de texto y *tool calls*.
 
-### 🎟️ Ticket 3: Migrar `pi-agent-core` usando Jido y Reactor (`pi_agent_core`)
+### ~🎟️ Ticket 3: Migrar `pi-agent-core` usando Jido y Reactor (`pi_agent_core`)~ (✅ Iniciado - Agente y Acción Base creados)
 **Objetivo:** Reemplazar el motor de bucle del agente Typescript por el modelo basado en actores y workflows.
 **Dependencias:** `jido`, `reactor`, `pi_ai`.
 **Criterios de Aceptación:**
